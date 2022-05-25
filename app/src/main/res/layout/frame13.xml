@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include layout="@layout/topbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="К оплате:"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+            android:layout_marginLeft="20dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Оплата наличными при получении"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            android:layout_marginTop="300dp"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Оплата картой при получении"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:layout_width="248dp"
+            android:layout_height="58dp"
+            android:background="@drawable/rounded_button"
+            android:text="Оплатить"
+            android:layout_marginBottom="10dp"
+            android:textSize="15dp"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_horizontal"
+            />
+    </LinearLayout>
+
+    <include layout="@layout/bottombar" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

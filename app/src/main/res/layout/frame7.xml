@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/topbar" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/loyalty_card" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ваши баллы: 9999"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="180dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="320dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="94dp"
+            android:layout_height="108dp"
+            android:background="@drawable/rounded_button"
+            android:text="За что дают баллы?"
+            android:textSize="10dp" />
+
+        <Button
+            android:layout_width="94dp"
+            android:layout_height="108dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/rounded_button"
+            android:text="Как накопить баллы?"
+            android:textSize="10dp" />
+
+        <Button
+            android:layout_width="152dp"
+            android:layout_height="108dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/rounded_button"
+            android:text="Где посмотреть состав продукции?"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:text="Интересные предложения"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:layout_marginLeft="20dp" />
+
+
+    <include layout="@layout/bottombar" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
